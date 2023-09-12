@@ -4,8 +4,5 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/TaskManager-FrontEnd/',
-  build: {
-    outDir: resolve('dist'), 
-  },
+  base: "/TaskManager-FrontEnd",
 })
