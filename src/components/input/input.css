@@ -12,9 +12,10 @@ form {
 }
 
 input {
-    
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
     margin: 0 auto;
-    width: 30%;
+    width: 25%;
     border-radius: 0.2rem;
     border: 0.1rem solid rgb(0, 0, 0);
     padding: 0.5rem;
@@ -25,11 +26,14 @@ input:focus {
 }
 
 .buttonSubmit  {
+    font-family: 'Cabin', sans-serif;
+    color: #fff;
+    font-size: 1rem;
     margin: 0 auto;
     border-radius: 0.2rem;
-    border: 0.1rem solid rgb(0, 0, 0);
+    border: 0.1rem solid rgb(255, 255, 255);
     padding: 0.5rem;
-    background-color: #fff;
+    background-color: #000;
     cursor: pointer;
 }
 
@@ -39,4 +43,14 @@ input:focus {
 
 .buttonSubmit:active {
     transform: translateY(2px);
+}
+
+.error {
+    color: red;
+    font-size: 1.3rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
 }
